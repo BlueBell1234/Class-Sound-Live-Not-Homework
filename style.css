@@ -1,0 +1,46 @@
+.bodybod{
+    background-image: url("https://i.ytimg.com/vi/ecnb7qOl4Pc/maxresdefault.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+
+.Title{
+    font-family: 'Mohave', sans-serif;
+    color: white;
+}
+
+.Description{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+}
+
+.Option-1{
+    font-family: 'Mohave', sans-serif;
+    color: white;
+}
+
+.Option-2{
+    font-family: 'Mohave', sans-serif;
+    color: white;
+}
+
+.Option-3{
+    font-family: 'Mohave', sans-serif;
+    color: white;
+}
+
+.Option-4{
+    font-family: 'Mohave', sans-serif;
+    color: white;
+}
+
+.Sound{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+}
+
+.Accuracy{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+}

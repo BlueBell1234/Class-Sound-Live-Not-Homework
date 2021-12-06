@@ -1,0 +1,71 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mohave:wght@700&display=swap" rel="stylesheet"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body class="bodybod">
+    <div class="col-xs-12 header_div text_center">
+      <center>
+        <h2 class="Title">Mellodic Hypnotic Aliens !</h2>
+        <br>
+        <h4 class="Description">Play These Sound And The Corresponding Alien Will Dance</h4>
+        <br>
+
+
+
+        <hr>
+        <h3 class="Option-1">Background Noise Silence</h3>
+
+        <hr>
+        <h3 class="Option-2">Clapping</h3>
+
+        <hr>
+        <h3 class="Option-3">Banging On The Table</h3>
+
+        <hr>
+
+        <h3 class="Option-4">Saying Hello</h3>
+        <hr>
+      </center>
+    </div>
+
+
+      <center>
+        <button class="btn btn-success" onclick="startClassification();"> START </button> 
+        <h4 id="result_label" class="Sound">Sound - </h4> 
+        <h4 id="result_confidence" class="Accuracy">Accuracy - </h4>
+        <br>
+        <br>
+        <div class="row">
+          <img src="./aliens-01.png" id="alien-1" width="300" height="250">
+          <img src="./aliens-02.png" id="alien-1" width="300" height="250">
+          <img src="./aliens-03.png" id="alien-1" width="300" height="250">
+          <img src="./aliens-04.png" id="alien-1" width="300" height="250">
+        </div>
+      </center>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
